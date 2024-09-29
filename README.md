@@ -1,4 +1,3 @@
-
 # Intrusion Detection Program
 
 ## Overview
@@ -15,18 +14,17 @@ This repository contains an Intrusion Detection system that monitors and detects
 
 - Scalable: Designed to work with various types of networks and traffic loads.
 
-
 ## Installation
 
 To run this program locally, ensure you have Python installed and follow these steps:
 
 1. Clone the repository:
 
-
 ```bash
 git clone https://github.com/masood2004/intrusion_detection.git
 cd intrusion-detection
 ```
+
 2. Install the required dependencies:
 
 ```bash
@@ -39,12 +37,10 @@ pip install -r requirements.txt
 python intrusion_detection.py
 ```
 
-
 ## Dependencies
 
 - Python 3.x
-- Scapy (for network traffic analysis)
-- Pandas (for data processing)
+- tqdm
 - Numpy (for numerical computations)
 - Matplotlib/Seaborn (for visualizations)
 
@@ -54,18 +50,13 @@ To install all dependencies:
 pip install -r requirements.txt
 ```
 
-
 ## Contributing
 
 Contributions to this project are welcome. Feel free to fork the repository, create a new branch, and submit a pull request.
 
-
-
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
 
 ## Contact
 
